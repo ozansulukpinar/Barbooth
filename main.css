@@ -1,0 +1,19 @@
+body{
+    background-color: #018017;
+}
+
+p, .button, h2, ul, .point{
+    text-align: center;
+}
+
+p{
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#userPoint, #computerPoint{
+    display: inline;
+}

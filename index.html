@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="rules">
+        <h2>Rules</h2>
+        <p>Player starts game.</p>
+        <p>All bets are 10 points.</p>
+        <p>Either of the two players wins all</p>
+        <p>if they throw a 3-3, 5-5 or 6-6.</p>
+        <p>If they throw 5-6, they win the bet.</p>
+        <p>They lose if they throw 1-1, 2-2 or 4-4.</p>
+        <p>If they throw 1-2, they lose the bet.</p>
+        <p>All other combinations are meaningless.</p>
+    </div>
+    <br />
+    <div class="point">
+        <p id="userPoint">Player: 50</p>
+        &nbsp;
+        <p id="computerPoint">Computer: 50</p>
+    </div>
+    <br />
+    <div class="button">
+        <input type="button" id="playGame" value="Roll Dice" onclick="playGame();">
+        &nbsp;
+        <input type="button" value="New Game" onclick="startNewGame();">
+    </div>
+    <br />
+    <div class="board" id="board"></div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
